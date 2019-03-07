@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <bean id="helloWorld" class="com.soft1721.spring.hello.HelloWorld"/>
+    <!--构造方法传值-->
+    <bean id="phone" class="com.soft1721.spring.hello.Phone">
+        <constructor-arg name="brand" value="华为mate20"/>
+        <constructor-arg name="price" value="4888"/>
+    </bean>
+    <!--属性传值-->
+    <bean id="student" class="com.spring.IoC.Student">
+        <property name="name" value="Tom"/>
+        <property name="age" value="21"/>
+        <property name="phone" ref="phone"/>
+    </bean>
+</beans>
