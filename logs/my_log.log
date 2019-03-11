@@ -675,3 +675,563 @@
 2019-03-07 09:55:28 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'hello'
 2019-03-07 09:55:28 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
 2019-03-07 09:55:28 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'myBeforeAdvice'
+2019-03-07 11:13:35 DEBUG ClassPathXmlApplicationContext:594 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@8102c8
+2019-03-07 11:13:36 DEBUG XmlBeanDefinitionReader:395 - Loaded 5 bean definitions from class path resource [Hello.xml]
+2019-03-07 11:13:36 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2019-03-07 11:13:36 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'hello'
+2019-03-07 11:13:36 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+2019-03-07 11:13:36 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'myBeforeAdvice'
+2019-03-07 11:13:36  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:41:19 DEBUG ClassPathXmlApplicationContext:594 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@8102c8
+2019-03-07 12:41:19 DEBUG XmlBeanDefinitionReader:395 - Loaded 8 bean definitions from class path resource [Hello.xml]
+2019-03-07 12:41:19 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2019-03-07 12:41:19 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'hello'
+2019-03-07 12:41:19 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+2019-03-07 12:41:19 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+2019-03-07 12:41:19 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'myBeforeAdvice'
+2019-03-07 12:41:19 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'user'
+2019-03-07 12:41:19 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'beforeAdvice'
+2019-03-07 12:41:19  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:41:19  INFO BeforeAdvice:11 - 连接数据库。。。
+2019-03-07 12:50:00 DEBUG ClassPathXmlApplicationContext:594 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@8102c8
+2019-03-07 12:50:00 DEBUG XmlBeanDefinitionReader:395 - Loaded 8 bean definitions from class path resource [Hello.xml]
+2019-03-07 12:50:00 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2019-03-07 12:50:00 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'hello'
+2019-03-07 12:50:00 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+2019-03-07 12:50:01 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+2019-03-07 12:50:01 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'myBeforeAdvice'
+2019-03-07 12:50:01 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'user'
+2019-03-07 12:50:01 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'beforeAdvice'
+2019-03-07 12:50:01  WARN ClassPathXmlApplicationContext:557 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'beforeAdvice' defined in class path resource [Hello.xml]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.spring.aop.BeforeAdvice]: No default constructor found; nested exception is java.lang.NoSuchMethodException: com.spring.aop.BeforeAdvice.<init>()
+2019-03-07 12:58:20 DEBUG ClassPathXmlApplicationContext:594 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@8102c8
+2019-03-07 12:58:20 DEBUG XmlBeanDefinitionReader:395 - Loaded 8 bean definitions from class path resource [Hello.xml]
+2019-03-07 12:58:20 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2019-03-07 12:58:20 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'hello'
+2019-03-07 12:58:20 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+2019-03-07 12:58:21 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+2019-03-07 12:58:21 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'myBeforeAdvice'
+2019-03-07 12:58:21 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'user'
+2019-03-07 12:58:21 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'beforeAdvice'
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 12:58:21  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 13:20:48 DEBUG ClassPathXmlApplicationContext:594 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@8102c8
+2019-03-07 13:20:48 DEBUG XmlBeanDefinitionReader:395 - Loaded 8 bean definitions from class path resource [Hello.xml]
+2019-03-07 13:20:49 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2019-03-07 13:20:49 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'hello'
+2019-03-07 13:20:49 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+2019-03-07 13:20:49 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+2019-03-07 13:20:49 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'myBeforeAdvice'
+2019-03-07 13:20:49 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'user'
+2019-03-07 13:20:49 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'beforeAdvice'
+2019-03-07 13:20:49  WARN ClassPathXmlApplicationContext:557 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'beforeAdvice' defined in class path resource [Hello.xml]: Could not resolve matching constructor (hint: specify index/type/name arguments for simple parameters to avoid type ambiguities)
+2019-03-07 13:24:47 DEBUG ClassPathXmlApplicationContext:594 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@8102c8
+2019-03-07 13:24:47 DEBUG XmlBeanDefinitionReader:395 - Loaded 8 bean definitions from class path resource [Hello.xml]
+2019-03-07 13:24:47 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2019-03-07 13:24:47 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'hello'
+2019-03-07 13:24:47 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+2019-03-07 13:24:47 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+2019-03-07 13:24:47 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'myBeforeAdvice'
+2019-03-07 13:24:47 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'user'
+2019-03-07 13:24:47 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'beforeAdvice'
+2019-03-07 13:24:48  WARN ClassPathXmlApplicationContext:557 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'beforeAdvice' defined in class path resource [Hello.xml]: Unsatisfied dependency expressed through constructor parameter 0: Could not convert argument value of type [com.sun.proxy.$Proxy5] to required type [com.spring.aop.UserDaoImpl]: Failed to convert value of type 'com.sun.proxy.$Proxy5 implementing com.spring.aop.UserDao,org.springframework.aop.SpringProxy,org.springframework.aop.framework.Advised,org.springframework.core.DecoratingProxy' to required type 'com.spring.aop.UserDaoImpl'; nested exception is java.lang.IllegalStateException: Cannot convert value of type 'com.sun.proxy.$Proxy5 implementing com.spring.aop.UserDao,org.springframework.aop.SpringProxy,org.springframework.aop.framework.Advised,org.springframework.core.DecoratingProxy' to required type 'com.spring.aop.UserDaoImpl': no matching editors or conversion strategy found
+2019-03-07 16:16:45 DEBUG ClassPathXmlApplicationContext:594 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@8102c8
+2019-03-07 16:16:45 DEBUG XmlBeanDefinitionReader:395 - Loaded 8 bean definitions from class path resource [Hello.xml]
+2019-03-07 16:16:45 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2019-03-07 16:16:45 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'hello'
+2019-03-07 16:16:45 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+2019-03-07 16:16:45 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+2019-03-07 16:16:45 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'myBeforeAdvice'
+2019-03-07 16:16:45 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'user'
+2019-03-07 16:16:45 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'beforeAdvice'
+2019-03-07 16:16:45  WARN ClassPathXmlApplicationContext:557 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'beforeAdvice' defined in class path resource [Hello.xml]: Unsatisfied dependency expressed through constructor parameter 0: Could not convert argument value of type [com.sun.proxy.$Proxy5] to required type [com.spring.aop.UserDaoImpl]: Failed to convert value of type 'com.sun.proxy.$Proxy5 implementing com.spring.aop.UserDao,org.springframework.aop.SpringProxy,org.springframework.aop.framework.Advised,org.springframework.core.DecoratingProxy' to required type 'com.spring.aop.UserDaoImpl'; nested exception is java.lang.IllegalStateException: Cannot convert value of type 'com.sun.proxy.$Proxy5 implementing com.spring.aop.UserDao,org.springframework.aop.SpringProxy,org.springframework.aop.framework.Advised,org.springframework.core.DecoratingProxy' to required type 'com.spring.aop.UserDaoImpl': no matching editors or conversion strategy found
+2019-03-07 16:21:03 DEBUG ClassPathXmlApplicationContext:594 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@8102c8
+2019-03-07 16:21:04 DEBUG XmlBeanDefinitionReader:395 - Loaded 8 bean definitions from class path resource [Hello.xml]
+2019-03-07 16:21:04 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2019-03-07 16:21:04 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'hello'
+2019-03-07 16:21:04 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+2019-03-07 16:21:04 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+2019-03-07 16:21:04 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'myBeforeAdvice'
+2019-03-07 16:21:04 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'userDao'
+2019-03-07 16:21:04 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'beforeAdvice'
+2019-03-07 16:21:04  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 16:21:04  INFO BeforeAdvice:13 - 连接数据库。。。
+2019-03-07 16:21:45 DEBUG ClassPathXmlApplicationContext:594 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@8102c8
+2019-03-07 16:21:45 DEBUG XmlBeanDefinitionReader:395 - Loaded 8 bean definitions from class path resource [Hello.xml]
+2019-03-07 16:21:45 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2019-03-07 16:21:45 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'hello'
+2019-03-07 16:21:45 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+2019-03-07 16:21:45 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+2019-03-07 16:21:45 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'myBeforeAdvice'
+2019-03-07 16:21:45 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'userDao'
+2019-03-07 16:21:46 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'beforeAdvice'
+2019-03-07 16:21:46  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 16:21:46  INFO BeforeAdvice:13 - 连接数据库。。。
+2019-03-07 16:34:59 DEBUG ClassPathXmlApplicationContext:594 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@8102c8
+2019-03-07 16:34:59 DEBUG XmlBeanDefinitionReader:395 - Loaded 8 bean definitions from class path resource [Hello.xml]
+2019-03-07 16:34:59 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2019-03-07 16:35:00 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'hello'
+2019-03-07 16:35:00 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+2019-03-07 16:35:00 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+2019-03-07 16:35:00 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'myBeforeAdvice'
+2019-03-07 16:35:00 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'userDao'
+2019-03-07 16:35:00 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'beforeAdvice'
+2019-03-07 16:35:00  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 16:35:00  INFO BeforeAdvice:13 - 连接数据库。。。
+2019-03-07 16:35:00  INFO BeforeAdvice:14 - com.spring.aop.UserDaoImpl@3ee3a2
+2019-03-07 16:36:16 DEBUG ClassPathXmlApplicationContext:594 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@8102c8
+2019-03-07 16:36:16 DEBUG XmlBeanDefinitionReader:395 - Loaded 8 bean definitions from class path resource [Hello.xml]
+2019-03-07 16:36:16 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2019-03-07 16:36:16 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'hello'
+2019-03-07 16:36:16 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+2019-03-07 16:36:16 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+2019-03-07 16:36:16 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'myBeforeAdvice'
+2019-03-07 16:36:16 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'userDao'
+2019-03-07 16:36:16 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'beforeAdvice'
+2019-03-07 16:36:16  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 16:36:16  INFO BeforeAdvice:13 - 连接数据库。。。
+2019-03-07 16:36:16  INFO BeforeAdvice:14 - com.spring.aop.UserDaoImpl@3ee3a2
+2019-03-07 16:36:47 DEBUG ClassPathXmlApplicationContext:594 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@8102c8
+2019-03-07 16:36:47 DEBUG XmlBeanDefinitionReader:395 - Loaded 8 bean definitions from class path resource [Hello.xml]
+2019-03-07 16:36:47 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2019-03-07 16:36:48 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'hello'
+2019-03-07 16:36:48 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+2019-03-07 16:36:48 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+2019-03-07 16:36:48 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'myBeforeAdvice'
+2019-03-07 16:36:48 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'userDao'
+2019-03-07 16:36:48 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'beforeAdvice'
+2019-03-07 16:36:48  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-07 16:36:48  INFO BeforeAdvice:13 - 连接数据库。。。
+2019-03-07 16:36:48  INFO BeforeAdvice:14 - com.spring.aop.UserDaoImpl@3ee3a2
+2019-03-07 16:55:48  INFO BeforeAdvice:15 - 
+2019-03-08 13:18:01 DEBUG ClassPathXmlApplicationContext:594 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@8102c8
+2019-03-08 13:18:02 DEBUG XmlBeanDefinitionReader:395 - Loaded 8 bean definitions from class path resource [Hello.xml]
+2019-03-08 13:18:02 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2019-03-08 13:18:02 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'hello'
+2019-03-08 13:18:02 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+2019-03-08 13:18:03 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+2019-03-08 13:18:03 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'myBeforeAdvice'
+2019-03-08 13:18:03 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'userDao'
+2019-03-08 13:18:03 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'beforeAdvice'
+2019-03-08 13:18:03  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-08 13:18:03  INFO BeforeAdvice:13 - 连接数据库。。。
+2019-03-08 13:19:30 DEBUG ClassPathXmlApplicationContext:594 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@8102c8
+2019-03-08 13:19:30 DEBUG XmlBeanDefinitionReader:395 - Loaded 8 bean definitions from class path resource [Hello.xml]
+2019-03-08 13:19:30 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2019-03-08 13:19:31 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'hello'
+2019-03-08 13:19:31 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+2019-03-08 13:19:31 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+2019-03-08 13:19:31 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'myBeforeAdvice'
+2019-03-08 13:19:31 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'userDao'
+2019-03-08 13:19:31 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'beforeAdvice'
+2019-03-10 15:17:45 DEBUG ClassPathXmlApplicationContext:594 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@8102c8
+2019-03-10 15:17:46 DEBUG XmlBeanDefinitionReader:395 - Loaded 5 bean definitions from class path resource [Hello.xml]
+2019-03-10 15:17:47 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2019-03-10 15:17:47 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'hello'
+2019-03-10 15:17:47 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+2019-03-10 15:17:48 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'myBeforeAdvice'
+2019-03-10 15:17:48  INFO MyBeforeAdvice:12 - This is before method by liuting
+2019-03-11 08:30:00 DEBUG ClassPathXmlApplicationContext:594 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@8102c8
+2019-03-11 08:30:02 DEBUG XmlBeanDefinitionReader:395 - Loaded 3 bean definitions from class path resource [fighter.xml]
+2019-03-11 08:30:02 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2019-03-11 08:30:02 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'fighter'
+2019-03-11 08:30:02 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'tiger'
+2019-03-11 08:31:37 DEBUG ClassPathXmlApplicationContext:594 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@8102c8
+2019-03-11 08:31:37 DEBUG XmlBeanDefinitionReader:395 - Loaded 3 bean definitions from class path resource [fighter.xml]
+2019-03-11 08:31:37 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2019-03-11 08:31:37 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'fighter'
+2019-03-11 08:31:37 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'tiger'
+2019-03-11 08:32:45 DEBUG ClassPathXmlApplicationContext:594 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@8102c8
+2019-03-11 08:32:45 DEBUG XmlBeanDefinitionReader:395 - Loaded 3 bean definitions from class path resource [fighter.xml]
+2019-03-11 08:32:45 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2019-03-11 08:32:45 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'fighter'
+2019-03-11 08:32:45 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'tiger'
+2019-03-11 08:32:45 DEBUG ReflectiveAspectJAdvisorFactory:243 - Found AspectJ method: public void com.spring.aop.Fighter.foundBefore()
+2019-03-11 08:32:45 DEBUG ReflectiveAspectJAdvisorFactory:243 - Found AspectJ method: public void com.spring.aop.Fighter.foundAfter()
+2019-03-11 09:54:00  INFO ImageCopy:10 - 开始将图片从D盘复制到E盘。。。
+2019-03-11 09:54:30 DEBUG ClassPathXmlApplicationContext:594 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@163006a
+2019-03-11 09:54:30 DEBUG XmlBeanDefinitionReader:395 - Loaded 3 bean definitions from class path resource [applicationContext.xml]
+2019-03-11 09:54:30 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2019-03-11 09:54:31 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'imageCopy'
+2019-03-11 09:54:31 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'imageHandler'
+2019-03-11 09:54:31  INFO ImageCopy:10 - 开始将图片从D盘复制到E盘。。。
+2019-03-11 09:56:20 DEBUG ClassPathXmlApplicationContext:594 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@163006a
+2019-03-11 09:56:20 DEBUG XmlBeanDefinitionReader:395 - Loaded 3 bean definitions from class path resource [applicationContext.xml]
+2019-03-11 09:56:20 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2019-03-11 09:56:20 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'imageCopy'
+2019-03-11 09:56:20 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'imageHandler'
+2019-03-11 09:56:20  INFO ImageCopy:10 - 开始将图片从D盘复制到E盘。。。
+2019-03-11 09:57:58 DEBUG ClassPathXmlApplicationContext:594 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@163006a
+2019-03-11 09:57:58 DEBUG XmlBeanDefinitionReader:395 - Loaded 3 bean definitions from class path resource [applicationContext.xml]
+2019-03-11 09:57:58 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2019-03-11 09:57:58 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'imageCopy'
+2019-03-11 09:57:58 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'imageHandler'
+2019-03-11 09:57:58  INFO ImageCopy:10 - 开始将图片从D盘复制到E盘。。。
+2019-03-11 09:59:10 DEBUG ClassPathXmlApplicationContext:594 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@163006a
+2019-03-11 09:59:10 DEBUG XmlBeanDefinitionReader:395 - Loaded 3 bean definitions from class path resource [applicationContext.xml]
+2019-03-11 09:59:10 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2019-03-11 09:59:10 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'imageCopy'
+2019-03-11 09:59:10 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'imageHandler'
+2019-03-11 09:59:10  INFO ImageCopy:10 - 开始将图片从D盘复制到E盘。。。
+2019-03-11 10:01:14 DEBUG ClassPathXmlApplicationContext:594 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@163006a
+2019-03-11 10:01:15 DEBUG XmlBeanDefinitionReader:395 - Loaded 3 bean definitions from class path resource [applicationContext.xml]
+2019-03-11 10:01:15 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2019-03-11 10:01:15 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'imageCopy'
+2019-03-11 10:01:15 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'imageHandler'
+2019-03-11 10:01:15  INFO ImageCopy:10 - 开始将图片从D盘复制到E盘。。。
+2019-03-11 10:03:35 DEBUG ClassPathXmlApplicationContext:594 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@163006a
+2019-03-11 10:03:35 DEBUG XmlBeanDefinitionReader:395 - Loaded 3 bean definitions from class path resource [applicationContext.xml]
+2019-03-11 10:03:35 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2019-03-11 10:03:35 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'imageCopy'
+2019-03-11 10:03:35 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'imageHandler'
+2019-03-11 10:03:35  INFO ImageCopy:10 - 开始将图片从D盘复制到E盘。。。
+2019-03-11 10:04:05 DEBUG ClassPathXmlApplicationContext:594 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@163006a
+2019-03-11 10:04:05 DEBUG XmlBeanDefinitionReader:395 - Loaded 3 bean definitions from class path resource [applicationContext.xml]
+2019-03-11 10:04:05 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2019-03-11 10:04:06 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'imageCopy'
+2019-03-11 10:04:06 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'imageHandler'
+2019-03-11 10:04:06  INFO ImageCopy:10 - 开始将图片从D盘复制到E盘。。。
+2019-03-11 10:06:43 DEBUG ClassPathXmlApplicationContext:594 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@163006a
+2019-03-11 10:06:44 DEBUG XmlBeanDefinitionReader:395 - Loaded 3 bean definitions from class path resource [applicationContext.xml]
+2019-03-11 10:06:44 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2019-03-11 10:06:44 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'imageCopy'
+2019-03-11 10:06:44 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'imageHandler'
+2019-03-11 10:06:44  INFO ImageCopy:10 - 开始将图片从D盘复制到E盘。。。
+2019-03-11 10:14:52 DEBUG ClassPathXmlApplicationContext:594 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@163006a
+2019-03-11 10:14:52 DEBUG XmlBeanDefinitionReader:395 - Loaded 3 bean definitions from class path resource [applicationContext.xml]
+2019-03-11 10:14:52 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2019-03-11 10:14:52 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'imageCopy'
+2019-03-11 10:14:52 DEBUG ReflectiveAspectJAdvisorFactory:243 - Found AspectJ method: public void com.spring.aop.ImageHandler.pressTextOnImage()
+2019-03-11 10:14:52 DEBUG ReflectiveAspectJAdvisorFactory:243 - Found AspectJ method: public void com.spring.aop.ImageHandler.grayImage()
+2019-03-11 10:14:53 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'imageHandler'
+2019-03-11 10:14:53  INFO ImageHandler:21 - 开始图片添加水印。。。
+2019-03-11 10:14:55  INFO ImageCopy:10 - 开始将图片从D盘复制到E盘。。。
+2019-03-11 10:14:55  INFO ImageHandler:31 - 开始将图片转成黑白。。。
+2019-03-11 10:29:51 DEBUG ClassPathXmlApplicationContext:594 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@163006a
+2019-03-11 10:29:51 DEBUG XmlBeanDefinitionReader:395 - Loaded 3 bean definitions from class path resource [applicationContext.xml]
+2019-03-11 10:29:51 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2019-03-11 10:29:51 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'imageCopy'
+2019-03-11 10:29:51 DEBUG ReflectiveAspectJAdvisorFactory:243 - Found AspectJ method: public void com.spring.aop.ImageHandler.pressTextOnImage() throws java.io.IOException
+2019-03-11 10:29:51 DEBUG ReflectiveAspectJAdvisorFactory:243 - Found AspectJ method: public void com.spring.aop.ImageHandler.grayImage()
+2019-03-11 10:29:52 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'imageHandler'
+2019-03-11 10:29:52  INFO ImageHandler:27 - 开始图片添加水印。。。
+2019-03-11 10:29:53  INFO ImageCopy:10 - 开始将图片从D盘复制到E盘。。。
+2019-03-11 10:29:53  INFO ImageHandler:44 - 开始将图片转成黑白。。。
